@@ -1,0 +1,113 @@
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --accent-color: #e74c3c;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+.navbar {
+    background-color: var(--primary-color);
+}
+.hero-section {
+    background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 0.9)), url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+.section-title {
+    border-bottom: 3px solid var(--secondary-color);
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    color: var(--primary-color);
+}
+.card {
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.game-container {
+    background-color: #f0f8ff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+}
+#heatmap {
+    height: 400px;
+    width: 100%;
+    border-radius: 8px;
+}
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+.progress-bar {
+    background-color: var(--secondary-color);
+}
+.interactive-element {
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.interactive-element:hover {
+    opacity: 0.8;
+}
+.tab-content {
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+}
+.nav-tabs .nav-link.active {
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+}
+.nav-tabs .nav-link {
+    color: var(--primary-color);
+}
+.timeline {
+    position: relative;
+    padding-left: 30px;
+    margin: 20px 0;
+}
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 15px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: var(--secondary-color);
+}
+.timeline-item {
+    position: relative;
+    margin-bottom: 20px;
+}
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -25px;
+    top: 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+}
+.work-card {
+    transition: all 0.3s;
+    border-left: 4px solid var(--secondary-color);
+}
+.work-card:hover {
+    border-left-color: var(--accent-color);
+    transform: translateX(5px);
+}
