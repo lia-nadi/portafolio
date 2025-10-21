@@ -9,7 +9,7 @@ const Trabajos = () => (
         <div className="col-md-4">
           <div className="card work-card h-100">
             <div className="card-body">
-              <h5 className="card-title">Tarea 1: Posicionamiento de Información lia</h5>
+              <h5 className="card-title">Tarea 1: Posicionamiento de Información loo</h5>
               <p className="card-text">Análisis de técnicas para el posicionamiento y visualización de información geoespacial.</p>
               <p className="text-muted"><small>Unidad 1 | Fecha de entrega: 15/09/2025</small></p>
               <a href="#" className="btn btn-primary stretched-link">Ver Trabajo</a>
