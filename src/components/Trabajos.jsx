@@ -19,7 +19,7 @@ const Trabajos = () => (
         <div className="col-md-4">
           <div className="card work-card h-100">
             <div className="card-body">
-              <h5 className="card-title">Tarea 2: Muestreo Bootstrap ...d</h5>
+              <h5 className="card-title">Tarea 2: Muestreo Bootstrap </h5>
               <p className="card-text">Aplicación de técnicas de remuestreo bootstrap en el análisis de datos espaciales.</p>
               <p className="text-muted"><small>Unidad 1 | Fecha de entrega: 29/09/2025</small></p>
               <a href="https://drive.google.com/drive/folders/1NKQRRrO1beVoy0BNi85wiyQS3dc5Wgk7?usp=sharing" className="btn btn-primary stretched-link">Ver Trabajo</a>
